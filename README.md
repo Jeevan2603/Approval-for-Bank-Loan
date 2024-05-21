@@ -1,7 +1,7 @@
-Bank Personal Loan Modeling
+Bank Personal Loan Modeling -
 This repository contains the code and analysis for predicting personal loan approvals based on customer data. The project involves exploratory data analysis (EDA), data visualization, statistical testing, and building several machine learning models to identify the best predictive model.
 
-Table of Contents
+Table of Contents - 
 Project Overview
 Dataset
 Exploratory Data Analysis
@@ -15,7 +15,7 @@ Usage
 Project Overview
 The objective of this project is to predict whether a customer will accept a personal loan offer. The project uses a dataset provided by a bank, containing various customer attributes. The analysis includes:
 
-Data cleaning and preprocessing
+Data cleaning and preprocessing - 
 Exploratory data analysis (EDA)
 Visualizations to understand data distributions and relationships
 Statistical tests to determine feature importance
@@ -40,7 +40,7 @@ CreditCard: Does the customer use a credit card issued by the bank? (1: Yes, 0: 
 Exploratory Data Analysis
 The initial EDA included:
 
-Viewing the first few records
+Viewing the first few records - 
 Checking for missing values
 Analyzing unique values for categorical variables
 Generating descriptive statistics
@@ -48,13 +48,13 @@ Visualizing distributions and relationships using pair plots and heatmaps
 Data Preprocessing
 The preprocessing steps included:
 
-Dropping irrelevant columns (ID and ZIP Code)
+Dropping irrelevant columns (ID and ZIP Code) - 
 Handling negative values in the Experience column by converting them to their absolute values
 Creating categorical bins for continuous variables (e.g., income)
 Statistical Analysis
 Chi-square tests were conducted to determine the dependency of personal loan acceptance on various features such as income and education. The results indicated significant dependencies, which were visualized using box plots.
 
-Model Building
+Model Building - 
 Several models were trained and evaluated:
 
 Logistic Regression
